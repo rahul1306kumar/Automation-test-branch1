@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-14T09:39:50 IST" name="InetbankingV1" finished-at="2023-03-14T09:40:11 IST" duration-ms="20457">
+    <groups>
+    </groups>
+    <test started-at="2023-03-14T09:39:50 IST" name="BankingApp Test" finished-at="2023-03-14T09:40:11 IST" duration-ms="20457">
+      <class name="com.inerbanking.testcases.TC_LoginDDT_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inerbanking.testcases.TC_LoginDDT_002@1cf6d1be]" started-at="2023-03-14T09:39:50 IST" name="setup" finished-at="2023-03-14T09:39:59 IST" duration-ms="8893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inerbanking.testcases.TC_LoginDDT_002@1cf6d1be]" started-at="2023-03-14T09:40:01 IST" name="loginDDT" data-provider="Logindata" finished-at="2023-03-14T09:40:11 IST" duration-ms="9124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr484788]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[urEpaty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+      </class> <!-- com.inerbanking.testcases.TC_LoginDDT_002 -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- InetbankingV1 -->
+</testng-results>
